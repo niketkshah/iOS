@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD4C72BB1E4283C900596E88 /* hello_picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD4C72BA1E4283C900596E88 /* hello_picture.jpg */; };
 		DDE7B3B41E3D65400016F203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B3B31E3D65400016F203 /* AppDelegate.swift */; };
 		DDE7B3B61E3D65400016F203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B3B51E3D65400016F203 /* ViewController.swift */; };
 		DDE7B3B91E3D65400016F203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE7B3B71E3D65400016F203 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD4C72BA1E4283C900596E88 /* hello_picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hello_picture.jpg; sourceTree = "<group>"; };
 		DDE7B3B01E3D65400016F203 /* helloworld2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE7B3B31E3D65400016F203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE7B3B51E3D65400016F203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				DDE7B3B31E3D65400016F203 /* AppDelegate.swift */,
 				DDE7B3B51E3D65400016F203 /* ViewController.swift */,
 				DDE7B3B71E3D65400016F203 /* Main.storyboard */,
+				DD4C72BA1E4283C900596E88 /* hello_picture.jpg */,
 				DDE7B3BA1E3D65400016F203 /* Assets.xcassets */,
 				DDE7B3BC1E3D65400016F203 /* LaunchScreen.storyboard */,
 				DDE7B3BF1E3D65400016F203 /* Info.plist */,
@@ -232,6 +235,7 @@
 				DDE7B3BE1E3D65400016F203 /* LaunchScreen.storyboard in Resources */,
 				DDE7B3BB1E3D65400016F203 /* Assets.xcassets in Resources */,
 				DDE7B3B91E3D65400016F203 /* Main.storyboard in Resources */,
+				DD4C72BB1E4283C900596E88 /* hello_picture.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				DDE7B3DA1E3D65400016F203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDE7B3DB1E3D65400016F203 /* Build configuration list for PBXNativeTarget "helloworld2Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				DDE7B3DD1E3D65400016F203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDE7B3DE1E3D65400016F203 /* Build configuration list for PBXNativeTarget "helloworld2UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				DDE7B3E01E3D65400016F203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
