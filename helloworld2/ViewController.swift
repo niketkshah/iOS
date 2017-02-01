@@ -9,11 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBAction func buttonTapped(sender: AnyObject) {
+    
+    
+    @IBOutlet var textFielForName: UITextField!
+    
+    
+    @IBAction func submitButton(sender: AnyObject) {
         
-        print("Hello World")
+        lablForOutput.text=textFielForName.text
+        
     }
+    
+    @IBOutlet var lablForOutput: UILabel!
     
     
     
